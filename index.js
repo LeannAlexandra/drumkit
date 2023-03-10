@@ -35,32 +35,26 @@ function playThisSound(s) {
             w.play();
             break;
         case 'a':
-            //tom2Sound.play();
             const a = tom2Sound.cloneNode();
             a.play();
             break;
         case 's':
-            // tom3Sound.play();
             const s = tom3Sound.cloneNode();
             s.play();
             break;
         case 'd':
-            //tom4Sound.play();
             const d = tom4Sound.cloneNode();
             d.play();
             break;
         case 'j':
-            // snareSound.play();
             const j = snareSound.cloneNode();
             j.play();
             break;
         case 'k':
-            // crashSound.play();
             const k = crashSound.cloneNode();
             k.play();
             break;
-        case 'l':
-            // kickSound.play();
+        case 'l': ;
             const l = kickSound.cloneNode();
             l.play();
             break;
